@@ -1,0 +1,49 @@
+.nav_placeholder{
+  font-family: 'Darker Grotesque';
+  font-weight: 600;
+  font-size: 1.6rem;
+  position:fixed;
+  left:0%; top:0%;
+  background-color:white;
+  opacity:0%;
+  z-index:3;
+}
+
+.navigation{
+  font-family: 'Darker Grotesque';
+  font-weight: 600;
+  font-size: 1.6rem;
+  width:100vw;
+  position: fixed;
+  left: 0%; top:0%;
+  z-index: 2;
+}
+
+    .nav_logo{
+      display: flex;
+      padding:1rem;
+      background-color: pink;
+    }
+
+    .nav_address{
+          width:50%;
+          text-align:right;
+          background-color: red;
+          color: white;
+        }
+    .nav_menu{
+      display: flex;
+      padding: 0 1rem 1rem 1rem;
+      background-color: aqua;
+    }
+
+    .menu_site{
+      width:50%;
+    }
+
+    .menu_user{
+      width:50%;
+      text-align:right;
+      color:white;
+      background-color: blue;
+    }
